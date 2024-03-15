@@ -26,3 +26,34 @@
 
 // 
 
+// который на вход принимает число number и выводит, является ли число чётным (делится ли оно на два без остатка)
+
+// Console.Write("Input number: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int remdiv = number % 2;
+
+// if(remdiv == 0)
+// {
+//     Console.WriteLine("even");
+// }
+// else
+// {
+//     Console.WriteLine("odd");
+// }
+
+
+// которая на вход принимает число (number), а на выходе выводит все чётные числа от 1 до number (включительно), 
+// после каждого числа должен быть знак пробела.
+
+Console.Write("Input number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int i = 2;
+
+while(i > 1 && i <= number)
+{ 
+ System.Console.Write(i + " ");
+ i = i + 2; //  i += 1
+}
+ 
+ Вопросы: 1. Почему я не смогла вставить while и if в 4 задаче с нахождением чётного числа из 3 задачи
