@@ -11,6 +11,11 @@ if (firstNumber > secondNumber)
     System.Console.WriteLine("larger number = " + firstNumber + ", smaller number = " + secondNumber);
  }
 
+ if (firstNumber == secondNumber)
+{
+    System.Console.WriteLine("numbers are equal");
+ }
+
 else 
 
 {
