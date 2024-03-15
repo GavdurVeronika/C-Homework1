@@ -1,8 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//  который на вход принимает два числа и выводит, какое число большее, а какое меньшее.
 
 Console.Write("Input firstNumber: ");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Input secondNumber: ");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
+
+if (firstNumber > secondNumber)
+{
+    System.Console.WriteLine("larger number = " + firstNumber + ", smaller number = " + secondNumber);
+ }
+
+else 
+
+{
+    System.Console.WriteLine("larger number = " + secondNumber + ", smaller number = " + firstNumber);
+ }
